@@ -1,7 +1,7 @@
 import re
 
 def p(k):
-    b = re.findall(r'(\d+)-(\d+) ([a-z]): ((.*?)\3){1}', k)
+    b = re.findall(r'(\d+)-(\d+) ([a-z]):', k)
     if b:
         c = re.findall(fr': ((.*?){b[0][2]}){{{b[0][0]}}}', k)
         d = re.findall(fr': ((.*?){b[0][2]}){{{int(b[0][1])+1}}}', k)
