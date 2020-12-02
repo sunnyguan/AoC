@@ -1,0 +1,1 @@
+a=document.body.innerText.split("\n");k=2020;r=a.find(b=>a.some(c=>b- -c==k));r*(k-r)
