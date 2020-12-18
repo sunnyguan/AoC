@@ -27,3 +27,7 @@ with open('day2.in', 'r') as f:
     s = f.read().split("\n")
     print(sum([p(a) for a in s]))
 ```
+
+### Day 3+
+
+Posted on gist
